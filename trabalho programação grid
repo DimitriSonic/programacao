@@ -1,0 +1,129 @@
+                                                                    GRID
+                                                                    
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <title>Aula de 26 de 05</title>
+</head>
+<body>
+    <div class="cabecalho">
+        <h1>AULA USANDO FLEXBOX</h1>
+    </div>
+    <div class="container">
+        <div id="box1">
+            Sonic
+        </div>
+        <div id="box2">
+            Amy
+        </div>
+        <div id="box3">
+            Tails
+        </div>
+        <div id="box4">
+            Knuckles
+        </div>
+        <div id="box5">
+            Shadow
+        </div>
+        <div id="box6">
+            Blaze
+        </div>
+        <div id="box7">
+            Cream
+        </div>
+        <div id="box8">
+            Silver
+        </div>
+        <div id="box9">
+            Rouge
+        </div>
+        <div id="box10">
+            Whisper
+        </div>
+        <div id="box11">
+            Box 11
+        </div>
+        <div id="box12">
+            Box 12
+        </div>
+        <div id="box13">
+            Box 13
+        </div>
+        <div id="box14">
+            Box 14
+        </div>
+        <div id="box15">
+            Box 15
+        </div>
+        <div id="box16">
+            Box 16
+        </div>
+        <div id="box17">
+            Box 17
+        </div>
+        <div id="box18">
+            Box 18
+        </div>
+        <div id="box19">
+            Box 19
+        </div>
+        <div id="box20">
+            Box 20
+        </div>
+    </div>
+</body>
+</html>
+
+          CSS
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #f5f5db;
+}
+
+.cabecalho {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.container > div {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+    border: 3px solid #455d20;
+    border-radius: 10px;
+}
+
+#box1 {
+    background-color: #62dede;
+}
+
+#box2 {
+    background-color: #8762de;
+}
+
+#box3 {
+    background-color: #bee39e;
+}
+
+#box4 {
+    background-color: #097171;
+}
