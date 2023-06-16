@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <link href="style.css" rel="stylesheet">
-    <title>Aula de 26 de 05</title>
+    <title>flex box</title>
 </head>
 <body>
     <div class="cabecalho">
-        <h1>AULA USANDO FLEXBOX</h1>
+        <h1>programação com flex box</h1>
     </div>
     <div class="container">
         <div class="box" id="box1">
