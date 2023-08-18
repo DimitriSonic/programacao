@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Perfil de [Nome do Cientista]</title>
+</head>
+<body>
+    <header>
+        <h1>Perfil de [Nome do Cientista]</h1>
+    </header>
+
+        <section class="biography">
+            <h2>Biografia</h2>
+            <p><strong>Data e Local de Nascimento:</strong> [Data e Local de Nascimento]</p>
+            <p><strong>Data e Local de Falecimento:</strong> [Data e Local de Falecimento]</p>
+            <p><strong>Fatos Biográficos Relevantes:</strong> [Fatos Biográficos Relevantes]</p>
+        </section>
+
+        <section class="area-of-expertise">
+            <h2>Área de Atuação/Pesquisa</h2>
+            <p>[Área de Atuação/Pesquisa]</p>
+        </section>
+
+        <section class="scientific-works">
+            <h2>Trabalhos Científicos</h2>
+            <article class="scientific-work">
+                <h3>[Título do Trabalho Científico]</h3>
+                <img src="imagem1.jpg" alt="[Descrição da Imagem]">
+                <p>[Breve Descrição do Trabalho Científico]</p>
+            </article>
+            <article class="scientific-work">
+                <h3>[Título do Trabalho Científico]</h3>
+                <img src="imagem2.jpg" alt="[Descrição da Imagem]">
+                <p>[Breve Descrição do Trabalho Científico]</p>
+            </article>
+            <!-- Adicione mais trabalhos científicos conforme necessário -->
+        </section>
+
+        <section class="awards">
+            <h2>Prêmios</h2>
+            <ul>
+                <li>[Nome do Prêmio] - [Ano]</li>
+                <li>[Nome do Prêmio] - [Ano]</li>
+                <!-- Adicione mais prêmios conforme necessário -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; [Ano] Nome do Cientista. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
