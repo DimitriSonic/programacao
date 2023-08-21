@@ -9,7 +9,8 @@
     <header>
         <h1>Perfil de [Marie Curie]</h1>
     </header>
-
+     <div class = "cotainer">
+     <img src="marie_curie_image.jpg" alt="Marie Curie">
         <section class="biography">
             <h2>Biografia</h2>
             <p><strong>Data e Local de Nascimento:</strong> [7 de novembro de 1867 em warsaw, Poland]</p>
@@ -39,3 +40,58 @@ Essa descoberta revolucionou nossa compreensão da física atômica e levou a v�
    
 </body>
 </html>
+
+
+CSS
+
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    background-color: white;
+    border-radius: 8px;
+   
+}
+
+.biography, .area-of-expertise, .awards {
+    padding: 1rem;
+    width: 100%;
+    max-width: 800px;
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.awards ul {
+    padding: 0;
+}
+
+.awards li {
+    margin: 0.5rem 0;
+}
+
